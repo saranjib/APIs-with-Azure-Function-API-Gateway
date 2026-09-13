@@ -10,3 +10,14 @@ variable "resource_group_name" {
   default     = "rg-function-api-project"
 }
 
+variable "function_app_name" {
+  description = "Globally unique Function App name"
+  type        = string
+}
+
+variable "storage_account_name" {
+  description = "Globally unique storage account name"
+  type        = string
+}
+
+
