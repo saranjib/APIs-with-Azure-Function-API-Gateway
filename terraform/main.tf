@@ -16,3 +16,5 @@ resource "azurerm_storage_account" "function_storage" {
 }
 
 
+
+
